@@ -22,6 +22,7 @@ namespace WindowsFormsApp11
           // MessageBox .Show("test");
            MessageBox.Show ("test2");
             MessageBox.Show ("test3");
+            MessageBox.Show ("final");
             Form2 f = new Form2();
             f.ShowDialog();
         }
