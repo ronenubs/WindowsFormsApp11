@@ -19,8 +19,11 @@ namespace WindowsFormsApp11
 
         private void button1_Click(object sender, EventArgs e)
         {
-           MessageBox .Show("Try merge.");
-
+          // MessageBox .Show("test");
+           MessageBox.Show ("test2");
+            MessageBox.Show ("test3");
+            Form2 f = new Form2();
+            f.ShowDialog();
         }
     }
 }
